@@ -10,6 +10,7 @@ The repository where front end and backend code lives for the Comp 586 (OOD)  at
 6. SpringBoot 
 7. JUNIT (Unit testing for Spring Boot)
 8. Jasmine Unit Testing Framework  (Unit testing for Angular Cli)
+9. Heroku for BackEnd Api Deployment 
 
 ### Concepts being used
 1. Model View Controller architecture 
