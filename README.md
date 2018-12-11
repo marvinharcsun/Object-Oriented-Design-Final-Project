@@ -14,6 +14,9 @@ The repository where front end and backend code lives for the Comp 586 (OOD)  at
 8. When is the best time to order (Anaylsis among Orders made and time (K Means), histogram (which day of the weeks most orders occur), scatter plot (orders per hour), histogram (frequency of orders through out the day) (This feature is only available for authenticated users) 
 9. Items LetssShop offers (Including the aisle it is located on and the department!)
 10. If you are authenticated and logged into our system you are able to edit, and view departments.
+11. If you are authenticated and logged into our system you are able to edit, and view aisles.
+11. If you are authenticated and logged into our system you are able to create,view, edit, or delete products and the metadata of the products we offer.
+11. If you are authenticated and logged into our system you are able to create,view, edit, or delete orders (All orders consist of who ordered it, what they ordered, is it active, and, and the unique order number).
 ### Technologies used
 1. MySQL
 2. Google Cloud Services
