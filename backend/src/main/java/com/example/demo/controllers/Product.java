@@ -1,5 +1,6 @@
 package com.example.demo.controllers;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import javax.validation.Valid;
 import com.example.demo.entity.ProductModel;
 import com.example.demo.repository.ProductRepo;
@@ -11,6 +12,7 @@ import javax.validation.Valid;
 import java.util.List;
 import org.springframework.web.bind.annotation.RequestBody;
 @RestController
+ @CrossOrigin(origins = "*",allowedHeaders="*", maxAge = 3600)
 public class Product {
 
  @Autowired
