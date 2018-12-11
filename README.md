@@ -1,4 +1,6 @@
-# Object-Oriented-Design-Final-Project
+### To start using https://warm-tundra-14923.herokuapp.com/ . 
+
+# Object-Oriented-Design-Final-Project (REPO CURRENTLY UNDER CONSTRUCTION)
 The repository where front end and backend code lives for the Comp 586 (OOD)  at California State University, Northridge. 
 
 ### Backend unit tests under path /backend/src/test/java/com/example/demo
