@@ -3,8 +3,9 @@ The repository where front end and backend code lives for the Comp 586 (OOD)  at
 
 
 ### What can an one do. (Functional Requirements)
-1. Reset/forgot password 
-
+1. Create an Account
+2. Receive an Email Verification for a Created Account
+3. Forget or Reset Password 
 ### Technologies used
 1. MySQL
 2. Google Cloud Services
