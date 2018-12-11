@@ -23,5 +23,7 @@ The repository where front end and backend code lives for the Comp 586 (OOD) for
 9. ORM implementation of classes with inheritance
 
 # LetsShop-Recommendation-Algorithms
+## Machine Learning and Statistical Related is Housed Via
+https://github.com/vanessailana/LetsShop-Recommendation-Algorithms-
 1. Using Diaglow Flow we were able to train and create a conversational interface. 
 2. Statistical Anaylsis on inventory and times of purchases.
