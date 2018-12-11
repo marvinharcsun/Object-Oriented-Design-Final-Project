@@ -1,6 +1,10 @@
 # Object-Oriented-Design-Final-Project
 The repository where front end and backend code lives for the Comp 586 (OOD)  at California State University, Northridge. 
 
+
+### What can an one do. (Functional Requirements)
+1. Reset/forgot password 
+
 ### Technologies used
 1. MySQL
 2. Google Cloud Services
