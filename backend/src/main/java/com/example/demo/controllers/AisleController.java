@@ -3,6 +3,7 @@ import com.example.demo.entity.Aisle;
 import com.example.demo.repository.AisleRepo;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import javax.validation.Valid;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.List;
 @RestController
-
+@CrossOrigin(origins ="https://warm-tundra-14923.herokuapp.com",allowedHeaders="*", maxAge = 3600)
 public class AisleController {
 
  @Autowired

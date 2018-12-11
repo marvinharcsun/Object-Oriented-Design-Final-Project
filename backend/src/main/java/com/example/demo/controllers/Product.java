@@ -12,7 +12,7 @@ import javax.validation.Valid;
 import java.util.List;
 import org.springframework.web.bind.annotation.RequestBody;
 @RestController
- @CrossOrigin(origins = "*",allowedHeaders="*", maxAge = 3600)
+ @CrossOrigin(origins ="https://warm-tundra-14923.herokuapp.com",allowedHeaders="*", maxAge = 3600)
 public class Product {
 
  @Autowired
