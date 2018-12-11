@@ -4,9 +4,14 @@ The repository where front end and backend code lives for the Comp 586 (OOD)  at
 ### Backend unit tests under path /backend/src/test/java/com/example/demo
 
 ### What can an one do. (Functional Requirements)
-1. Create an Account
+1. Create an Account (For more benefits, if you have proper credentials) (Remember authentication occurs with the help of auth0 and jwt tokens)
 2. Receive an Email Verification for a Created Account
-3. Forget or Reset Password 
+3. Forget or Reset Password (only if you have a verified and created account)
+4. Help Chat (if you have any questions)
+5. An Analysis of Items Frequently Purchased and How Popular is Each Item
+6. Profile information (Logged in Ofcourse) 
+7. Calculator on your dashboard if you need help calculating 
+8. When is the best time to order (Anaylsis among Orders made and time (K Means), histogram (which day of the weeks most orders occur), scatter plot (orders per hour), histogram (frequency of orders through out the day) (This feature is only available for authenticated users) 
 ### Technologies used
 1. MySQL
 2. Google Cloud Services
@@ -16,7 +21,7 @@ The repository where front end and backend code lives for the Comp 586 (OOD)  at
 6. SpringBoot 
 7. JUNIT (Unit testing for Spring Boot)
 8. Jasmine Unit Testing Framework  (Unit testing for Angular Cli)
-9. Heroku for BackEnd Api Deployment 
+9. Heroku for BackEnd /Frontend Api Deployment 
 
 ### Concepts being used
 1. Model View Controller architecture 
