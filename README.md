@@ -1,6 +1,7 @@
 # Object-Oriented-Design-Final-Project
 The repository where front end and backend code lives for the Comp 586 (OOD)  at California State University, Northridge. 
 
+### Backend unit tests on backend/src/test/java/com/example/demo
 
 ### What can an one do. (Functional Requirements)
 1. Create an Account
