@@ -52,5 +52,6 @@ https://github.com/vanessailana/LetsShop-Recommendation-Algorithms-
 - Angular client cd into the frontend directory, npm install,npm install -g @angular/cli, and ng serve 
 - Remember you must replace all service links with localhost:9090  (but keep the path)
 - Spring boot server cd into backend. Do an mvn install, spring-boot:run 
+- You must configure all controllers and classes within the repo folder to have a Cross Origins of localhost:4200, or to ensure the client is able to access the data.
 - You must run both these processes simultaneously.  
 - Go to localhost:4200 , and then you should be ready to go. 
