@@ -1,13 +1,14 @@
-### Just some notes to give you a heads up. 
+
+# Object-Oriented-Design-Final-Project (REPO CURRENTLY UNDER CONSTRUCTION)
+The repository where front end and backend code lives for the Comp 586 (OOD)  at California State University, Northridge. 
+
+### Just some notes to give you a heads up. :)
 1. Repo with the original backend content for LetsShop https://github.com/vanessailana/Object-Oriented-Design-Final-Project/tree/master/backend
 2. FrontEnd Repo (Angular Cli)  https://github.com/vanessailana/LetsShopFinal 
 
 ### To start using please visit https://warm-tundra-14923.herokuapp.com/ .
 
 ### backend services use the api https://limitless-fjord-55371.herokuapp.com/products
-
-# Object-Oriented-Design-Final-Project (REPO CURRENTLY UNDER CONSTRUCTION)
-The repository where front end and backend code lives for the Comp 586 (OOD)  at California State University, Northridge. 
 
 ### Backend unit tests under path /backend/src/test/java/com/example/demo
 ### Frontend unit tests under path /frontend/src/app/(component_name)/*.spec.ts
