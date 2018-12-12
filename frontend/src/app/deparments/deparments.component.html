@@ -1,0 +1,28 @@
+<h1 style="text-align: center">Departments</h1>
+
+ <div class="text-align:center">
+    <pagination-controls  id="listing_pagination" maxSize="5" directionLinks="true" (pageChange)="page = $event"></pagination-controls>
+  </div>
+   <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <td>Department Name</td>
+        <td>Edit </td>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of departments | paginate: { id: 'listing_pagination',
+                                                      itemsPerPage: 5,
+                                                      currentPage: page,
+                                                      totalItems: totalRec };let i = index">
+        <td>{{user.title}}</td>
+
+ <td><button class="btn btn-danger" (click)="editDepartmentPage(user)"> Edit </button></td>
+
+ <td></td>
+    </tr>
+
+    </tbody>
+  </table>
+
