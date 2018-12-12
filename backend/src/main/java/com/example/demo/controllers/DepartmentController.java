@@ -15,7 +15,7 @@ import org.springframework.web.multipart.MultipartHttpServletRequest;
 
 import java.util.List;
 @RestController
-@CrossOrigin(origins ={"https://warm-tundra-14923.herokuapp.com","http:localhost:4200","https:localhost:4200"},allowedHeaders="*", maxAge = 3600)
+@CrossOrigin(origins ="https://warm-tundra-14923.herokuapp.com",allowedHeaders="*", maxAge = 3600)
 public class DepartmentController {
 
  @Autowired
