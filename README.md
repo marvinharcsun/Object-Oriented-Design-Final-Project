@@ -45,7 +45,7 @@ The repository where front end and backend code lives for the Comp 586 (OOD)  at
 ## Machine Learning and Statistical Related is Housed Via
 https://github.com/vanessailana/LetsShop-Recommendation-Algorithms-
 1. Using Diaglow Flow we were able to train and create a conversational interface. 
-2. Statistical Anaylsis on inventory and times of purchases.
+2. Statistical Anaylsis on inventory and times of purchases. (Histograms, KMeans, Scatter Plots)
 
 ### Heads up how to alter this to your local environment. 
 -  If you want to run this within your local environment, you must do as follows:
