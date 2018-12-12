@@ -1,3 +1,7 @@
+### Just some notes to give you a heads up. 
+1. Repo with the original backend content for LetsShop https://github.com/vanessailana/Object-Oriented-Design-Final-Project/tree/master/backend
+2. FrontEnd Repo (Angular Cli)  https://github.com/vanessailana/LetsShopFinal 
+
 ### To start using please visit https://warm-tundra-14923.herokuapp.com/ . 
 
 # Object-Oriented-Design-Final-Project (REPO CURRENTLY UNDER CONSTRUCTION)
