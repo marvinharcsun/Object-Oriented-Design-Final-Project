@@ -48,9 +48,9 @@ https://github.com/vanessailana/LetsShop-Recommendation-Algorithms-
 2. Statistical Anaylsis on inventory and times of purchases.
 
 ### Heads up how to alter this to your local environment. 
-## If you want to run this within your local environment, you must do as follows:
-## Angular client cd into the frontend directory, npm install,npm install -g @angular/cli, and ng serve 
-## Remember you must replace all service links with localhost:9090  (but keep the path)
-## Spring boot server cd into backend. Do an mvn install, spring-boot:run 
-## You must run both these processes simultaneously.  
-## Go to localhost:4200 , and then you should be ready to go. 
+-  If you want to run this within your local environment, you must do as follows:
+- Angular client cd into the frontend directory, npm install,npm install -g @angular/cli, and ng serve 
+- Remember you must replace all service links with localhost:9090  (but keep the path)
+- Spring boot server cd into backend. Do an mvn install, spring-boot:run 
+- You must run both these processes simultaneously.  
+- Go to localhost:4200 , and then you should be ready to go. 
