@@ -6,7 +6,7 @@ The repository where front end and backend code lives for the Comp 586 (OOD)  at
 ### Backend unit tests under path /backend/src/test/java/com/example/demo
 
 ### What can an one do. (Functional Requirements)
-1. Create an Account (For more benefits, if you have proper credentials) (Remember authentication occurs with the help of auth0 and jwt tokens)
+1. Create an Account (For more benefits, if you have proper credentials) (Remember authentication occurs with the help of auth0 jwt tokens, token renewal)
 2. Receive an Email Verification for a Created Account
 3. Forget or Reset Password (only if you have a verified and created account)
 4. Help Chat (if you have any questions)
