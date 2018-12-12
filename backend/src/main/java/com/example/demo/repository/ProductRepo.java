@@ -6,9 +6,8 @@ import com.example.demo.entity.ProductModel;
 import org.springframework.stereotype.Repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 @Repository
+@CrossOrigin(origins ={"https://warm-tundra-14923.herokuapp.com","http:localhost:4200","https:localhost:4200"},allowedHeaders="*", maxAge = 3600)
 
-
-@CrossOrigin(origins = "https://warm-tundra-14923.herokuapp.com")
 public interface ProductRepo extends JpaRepository<ProductModel, Long> {
 
 }

@@ -11,6 +11,7 @@ import javax.validation.Valid;
 import java.util.List;
 import org.springframework.web.bind.annotation.RequestBody;
 @RestController
+@CrossOrigin(origins ={"https://warm-tundra-14923.herokuapp.com","http:localhost:4200","https:localhost:4200"},allowedHeaders="*", maxAge = 3600)
 public class OrderAnaylisisController {
 
  @Autowired
