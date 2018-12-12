@@ -21,7 +21,7 @@ The repository where front end and backend code lives for the Comp 586 (OOD)  at
 11. If you are authenticated and logged into our system you are able to edit, and view aisles.
 11. If you are authenticated and logged into our system you are able to create,view, edit, or delete products and the metadata of the products we offer.
 11. If you are authenticated and logged into our system you are able to create,view, edit, or delete orders (All orders consist of who ordered it, what they ordered, is it active, and, and the unique order number).
-12. If you are authenticated and logged into our system you are able to view, edit order metadata which is associated to the orders completed with LetsShop.
+12. If you are authenticated and logged into our system you are able to view, edit,or delete order metadata which is associated to the orders completed with LetsShop.
 ### Technologies used
 1. MySQL
 2. Google Cloud Services
