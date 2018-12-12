@@ -4,6 +4,8 @@
 The repository where front end and backend code lives for the Comp 586 (OOD)  at California State University, Northridge. 
 
 ### Backend unit tests under path /backend/src/test/java/com/example/demo
+### Frontend unit tests under path /frontend/src/app/(component_name)/*.spec.ts
+### Ex: Unit test Product List component would be at /frontend/src/app/product-list/proct-list.component.spec.ts
 
 ### What can an one do. (Functional Requirements)
 1. Create an Account (For more benefits, if you have proper credentials) (Remember authentication occurs with the help of auth0 jwt tokens, token renewal)
