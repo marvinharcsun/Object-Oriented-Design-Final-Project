@@ -27,14 +27,21 @@ public class Order {
    private String product_name;
 
     private boolean active=true;
-    
   
-   @ManyToOne(fetch = FetchType.LAZY, optional = false)
-  @JoinColumn(name="product_name",referencedColumnName="product_name", insertable=false, updatable=false)
-   private ProductModel prod;
 
-    
 
+    @ManyToOne(fetch = FetchType.LAZY, optional = false, targetEntity = ProductModel.class)
+    @JoinColumn(name="product_name",referencedColumnName="product_name",insertable=false, updatable=false)
+     private ProductModel prod;
+
+   public ProductModel getProduct(){
+    return prod;
+   }
+
+   public void setProduct(ProductModel prod) {
+    this.prod=prod;
+    return;
+   }
   public boolean isActive() {
     return active;
   }
@@ -73,15 +80,6 @@ public class Order {
     }
 
  
-
-public ProductModel getProduct(){
-      return prod;
-    }
-
-   public void setProduct(ProductModel product){
-    this.prod=prod;
-    return;
-  }
 
 
 

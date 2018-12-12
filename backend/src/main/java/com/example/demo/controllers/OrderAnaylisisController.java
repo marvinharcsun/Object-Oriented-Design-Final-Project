@@ -40,7 +40,7 @@ public class OrderAnaylisisController {
         return orderRepo.save(order);
     }
 
-   @DeleteMapping("/order_metadata/{id}")
+   @DeleteMapping("/order_details/{id}")
      public List<OrderAnaylisis> delete(@PathVariable("id") Long order_id)
      {
          orderRepo.deleteById(order_id);

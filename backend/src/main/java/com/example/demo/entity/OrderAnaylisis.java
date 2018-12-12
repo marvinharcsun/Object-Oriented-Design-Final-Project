@@ -18,8 +18,8 @@ import javax.persistence.ManyToOne;
 @Table(name = "orders_details")
 public class OrderAnaylisis {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private int order_id;
+ @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long order_id;
 
 
     private int user_id;
@@ -36,11 +36,11 @@ public class OrderAnaylisis {
 
   
 
-  public int getId() {
+  public Long getId() {
     return order_id;
   }
 
-    public void setId(int order_id) {
+    public void setId(long order_id) {
     this.order_id=order_id;
     return;
   }
