@@ -1,5 +1,5 @@
 
-# Object-Oriented-Design-Final-Project (REPO CURRENTLY UNDER CONSTRUCTION)
+# Object-Oriented-Design-Final-Project 
 The repository where front end and backend code lives for the Comp 586 (OOD)  at California State University, Northridge. 
 
 ### Just some notes to give you a heads up. :)
