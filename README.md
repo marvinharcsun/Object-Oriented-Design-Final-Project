@@ -65,3 +65,7 @@ https://github.com/vanessailana/LetsShop-Recommendation-Algorithms-
 - You must configure all controllers and classes within the repo folder to have a Cross Origins of localhost:4200, or to ensure the client is able to access the data.
 - You must run both these processes simultaneously.  
 - Go to localhost:4200 , and then you should be ready to go. 
+
+
+### FYI
+In order to run this project with all features. You must use this within your local and configure your own database. 
